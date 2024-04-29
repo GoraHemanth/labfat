@@ -23,5 +23,7 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
 
-    - name: Build application
-      run: ./build.sh
+    - name: Run build script
+      run: |
+        chmod +x build.sh  
+        ./build.sh
