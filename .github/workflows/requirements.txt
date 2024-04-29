@@ -1,2 +1,4 @@
+#This file should be created on the local desktop in the root directory in order to install the dependencies properly
+
 Flask==2.1.0
 requests==2.26.0
